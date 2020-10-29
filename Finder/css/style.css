@@ -1,0 +1,299 @@
+img {
+    max-width: 100%;
+        height: auto;
+}
+
+.fa-star,
+.fa-star-half-o {
+    color: #FF9529;
+    padding: 3% 0%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.container{
+    width: 100%;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#subpage-header {
+    background-color: #3f72af;
+    width: 100%;
+}
+
+.header-logo-text {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2.5rem;
+    padding: 0;
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+
+#subpage-header i {
+    font-size: 1.5rem;
+    float: right;
+    padding: 2% 2% 4% 1%;
+    color: white;
+}
+
+.subpage-topnav a {
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    font-weight: 300;
+    display: inline-block;
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+    padding: 2% 2%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.subpage-topnav {
+    overflow: hidden;
+    background-color: transparent;
+    padding: 1% 5%;
+}
+
+.subpage-topnav a:hover {
+    color: rgba(255, 255, 255, .8);
+
+}
+
+.subpage-topnav .icon {
+    display: none;
+}
+
+.subpage-topnav i {
+    font-size: 2rem;
+
+}
+
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    margin-top: 5%;
+}
+
+.footer-logo-text {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2.5rem;
+    padding: 0;
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+.footer-card {
+    position: relative;
+    top: -10%;
+    left: 5%;
+    background-color: #3f72af;
+    width: 90%;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.subs-cont {
+    padding: 5% 0%;
+    position: absolute;
+    top: -100%;
+    left: 55%;
+}
+
+.name-field {
+    background-color: #284c78;
+    color: white;
+    width: 30%;
+    font-size: 1rem;
+    outline: none;
+    padding: 5px;
+    border-style: hidden;
+    height: 40px;
+
+
+}
+
+.name-field:active {
+    border: none;
+    color: white;
+
+
+}
+
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+
+}
+
+
+
+.email-field {
+    background-color: #284c78;
+    color: white;
+    width: 30%;
+    position: relative;
+    font-size: 1rem;
+    padding: 5px;
+    border-style: hidden;
+    height: 40px;
+
+}
+
+.footer-card hr {
+    color: white;
+}
+
+.subscribe-btn {
+    padding: 15px 45px;
+    text-decoration: none;
+    background-color: #284c78;
+    color: white;
+
+
+}
+
+.social-links {
+    position: relative;
+    padding: 0 5%;
+}
+
+.social-links h3 {
+    color: white;
+    position: relative;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+
+}
+
+.social-links i {
+    margin: 0px 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .subpage-topnav a {
+        display: none;
+    }
+
+    .subpage-topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+
+    .subpage-topnav.responsive {
+        position: relative;
+
+    }
+
+    .subpage-topnav.responsive .icon {
+        position: absolute;
+        right: 16%;
+        top: 13%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .subpage-topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        padding-left: 5%;
+
+    }
+    .email-field {
+        display: block;
+        width: 80%;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+
+    }
+
+    .name-field {
+        display: block;
+        width: 80%;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+    }
+
+    .subs-cont {
+        position: absolute;
+        top: -30%;
+        left: 50%;
+    }
+
+    .subscribe-btn {
+        padding: 5% 19%;
+        margin-top: 2%;
+        display: inline-block;
+        margin-bottom: 2%;
+}
+}
+
+
+
+#content{
+    margin-top: 3%;
+}
+
+.phone-title{
+    margin-top: 3%;
+    margin-left: 3%;
+    text-transform: uppercase; 
+    word-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:#696969
+}
+.phone-features-head{
+    display: inline;
+    text-transform: capitalize;
+    margin-bottom: 10%;
+    color: #696969;
+    font-weight: bolder;
+
+}
+p{
+    display: inline;
+}
+li{
+    margin-bottom: 1%;
+    list-style-type: circle;
+}
+.table{
+    margin-left: 3%;
+    background-color: #3f72af;
+    width: 95%;
+    align-content: center;
+
+}
+table td,th {
+    color: white;
+
+}
