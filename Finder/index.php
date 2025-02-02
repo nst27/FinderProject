@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 <html>
 
 <head>
-    <title>NST</title>
+    <title>MOIN</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS only -->
